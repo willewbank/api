@@ -1,26 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T15:03:16.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="fHC1GteaPj1gXG3RrDgo" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T15:09:57.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="TCid-pNvP_im_83BZS5W" version="22.1.0" type="github">
   <diagram name="Page-1" id="2txzawQmjN0-HeA8sq4K">
-    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fr3oZikfdaQI66kOYFN2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fr3oZikfdaQI66kOYFN2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
-          <mxGeometry x="60" y="50" width="68" height="60" as="geometry" />
+          <mxGeometry x="60" y="51" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fr3oZikfdaQI66kOYFN2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fr3oZikfdaQI66kOYFN2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="78.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="1">
           <mxGeometry x="360" y="48.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-3" value="status endpoint" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/API_Management_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="630" y="55" width="59.58" height="55" as="geometry" />
+          <mxGeometry x="630" y="51" width="59.58" height="55" as="geometry" />
         </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Dashboard_Hub.svg;" vertex="1" parent="1">
-          <mxGeometry x="335" y="180" width="110" height="84.12" as="geometry" />
+          <mxGeometry x="340" y="180" width="105" height="80.3" as="geometry" />
+        </mxCell>
+        <mxCell id="fr3oZikfdaQI66kOYFN2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fr3oZikfdaQI66kOYFN2-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Firewall.svg;" vertex="1" parent="1">
-          <mxGeometry x="500" y="53.5" width="56.5" height="56.5" as="geometry" />
+          <mxGeometry x="500" y="51.75" width="56.5" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fr3oZikfdaQI66kOYFN2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fr3oZikfdaQI66kOYFN2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="78.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fr3oZikfdaQI66kOYFN2-9" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" vertex="1" parent="1">
           <mxGeometry x="210" y="47" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="fr3oZikfdaQI66kOYFN2-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.471;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=none;startFill=0;endFill=1;" edge="1" parent="1" source="fr3oZikfdaQI66kOYFN2-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="340" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="92" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
